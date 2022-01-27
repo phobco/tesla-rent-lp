@@ -211,11 +211,13 @@ h2 {
   display: block;
   float: left;
   border-radius: 50%;
-  margin: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .reviews-item h4 {
-  margin: 20px 0;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
 .rent {
@@ -286,6 +288,33 @@ h2 {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+@media (max-width: 1500px) {
+  .reviews {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1280px) {
+  .reviews {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    margin: 0;
+    display: block;
+  }
+
+  .reviews-item {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .reviews-item p {
+    padding-right: 2%;
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 1100px) {
   .header {
     height: auto;
@@ -349,24 +378,22 @@ h2 {
     margin-right: auto;
   }
 
-  .reviews {
-    padding: 0;
-    margin: 0;
-    display: block;
-  }
-
-  .reviews-item {
-    height: 200px;
-    width: 100%;
-  }
-
-  .reviews-item p {
-    padding-right: 2%;
-  }
-
   .rent-form {
     margin: 0;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-item {
+    height: 230px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .reviews-item img {
+    margin-right: 2%;
+    margin-bottom: 2%;
   }
 }
