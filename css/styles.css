@@ -26,7 +26,6 @@ html {
 
 .background {
   height: 800px;
-  /* background-image: url('../images/banner.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -221,7 +220,6 @@ h2 {
 
 .rent {
   height: 500px;
-  /* background-image: url('/images/background.jpg'); */
   background-size: cover;
   background-position: center;
   text-align: center;
