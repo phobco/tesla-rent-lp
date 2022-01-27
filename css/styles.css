@@ -34,7 +34,7 @@ html {
 
 .logo {
   display: inline-block;
-  width: 25%;
+  width: 13%;
   float: left;
   font-size: 30px;
   font-weight: lighter;
@@ -46,7 +46,7 @@ html {
 }
 
 .menu {
-  width: 75%;
+  width: 87%;
   display: inline-block;
   float: left;
 }
@@ -294,10 +294,14 @@ h2 {
   .banner {
     padding: 0;
   }
+
+  .models-description {
+    padding: 0;
+  }
 }
 
 
-@media (max-width: 860px) {
+@media (max-width: 900px) {
   .header, .banner, .about {
     padding: 0;
     height: auto;
@@ -329,8 +333,8 @@ h2 {
   }
 
   .models-item {
-    width: 95%;
-    margin: 10px 0;
+    width: 97%;
+    margin: 1% 0;
     margin-left: auto;
     margin-right: auto;
   }
