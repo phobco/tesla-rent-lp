@@ -1,14 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Page Title</title>
+  <title>Tesla Rent</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-  <script src='main.js'></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-  
+  <div class="background" id="top">
+    <div class="header">
+      <div class="logo">
+        <a href=""><p class="logo-text">Tesla Rent</p></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#rent">Арендовать</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#models">Модели</a></li>
+          <li><a href="#about">О нас</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner-text">
+        <h1>Tesla Rent — ощути энергию будущего!</h1>
+        <h2>Посуточный прокат автомобилей Tesla в вашем городе.</h2>
+      </div>
+    </div>
+  </div>
+  <h2 id="about">Почему мы?</h2>
+  <div class="about">
+    <div>
+      <img src="/images/about1.png" height="100px" alt="icon1">
+      <p>Оформление до 10 мин.</p>
+    </div>
+    <div>
+      <img src="/images/about2.png" height="100px" alt="icon2">
+      <p>Нет возрастных ограничений</p>
+    </div>
+    <div>
+      <img src="/images/about3.png" height="100px" alt="icon3">
+      <p>Полная страховка</p>
+    </div>
+  </div>
+  <h2 id="models">Модели</h2>
+  <div class="models text-center">
+    <div class="models-item" style="border: solid 2px blue;">
+      <h4>Model 3</h4>
+      <img src="/images/model-3.jpg" alt="model-3">
+      <div class="models-description">
+        <div class="models-description-item">
+          <p>0-100 км/ч</p>
+          <p class="param">3.9 сек</p>
+        </div>
+        <div class="models-description-item">
+          <p>Мощность</p>
+          <p class="param">397 л.с.</p>
+        </div>
+        <div class="models-description-item">
+          <p>Запас хода</p>
+          <p class="param">480 км.</p>
+        </div>
+      </div>
+      <p class="rent-price">От 23 000 руб/сутки</p>
+    </div>
+    <div class="models-item" style="border: solid 2px grey;">
+      <h4>Model X</h4>
+      <img src="/images/model-x.jpg" alt="model-x">
+      <div class="models-description">
+        <div class="models-description-item">
+          <p>0-100 км/ч</p>
+          <p class="param">2.5 сек</p>
+        </div>
+        <div class="models-description-item">
+          <p>Мощность</p>
+          <p class="param">1020 л.с.</p>
+        </div>
+        <div class="models-description-item">
+          <p>Запас хода</p>
+          <p class="param">535 км.</p>
+        </div>
+      </div>
+      <p class="rent-price">От 45 000 руб/сутки</p>
+    </div>
+    <div class="models-item" style="border: solid 2px orangered;">
+      <h4>Model S</h4>
+      <img src="/images/model-s.jpg" alt="model-s">
+      <div class="models-description">
+        <div class="models-description-item">
+          <p>0-100 км/ч</p>
+          <p class="param">1.99 сек</p>
+        </div>
+        <div class="models-description-item">
+          <p>Мощность</p>
+          <p class="param">1020 л.с.</p>
+        </div>
+        <div class="models-description-item">
+          <p>Запас хода</p>
+          <p class="param">320 км.</p>
+        </div>
+      </div>
+      <p class="rent-price">От 57 000 руб/сутки</p>
+    </div>
+  </div>
+  <h2 id="reviews">Отзывы</h2>
+  <div class="reviews">
+    <div class="reviews-item">
+      <img src="/images/face1.jpg" height="150px" alt="face1">
+      <h4>Сергей</h4>
+      <p class="italic">Регулярно беру в аренду авто у "Tesla Rent". Впечатления от авто и сервиса — только положительные. Каждый в жизни должен попробовать что такое электротяга. </p>
+    </div>
+    <div class="reviews-item">
+      <img src="/images/face2.jpg" height="150px" alt="face2">
+      <h4>Анна</h4>
+      <p class="italic">Иногда берём Model 3 по выходным, катаемся, получаем удовольствие. Кстати, постоянным клиентам делают скидку, так что уточните у менеджера.</p>
+    </div>
+    <div class="reviews-item">
+      <img src="/images/face3.jpg" height="150px" alt="face3">
+      <h4>Георгий</h4>
+      <p class="italic">Я — любитель погонять по треку на быстром авто. Каким было моё удивление, когда я сел за руль Model S! 1020 лошадиных сил, это невероятно! </p>
+    </div>
+  </div>
+  <h2 id="rent">Арендовать</h2>
+  <div class="rent">
+    <form class="rent-form" action="/">
+      <input type="text" id="name" placeholder="Ваше имя"><br><br>
+      <input type="text" id="phone" placeholder="Ваш телефон"><br><br>
+      <select>
+        <option disabled selected hidden>Выберите модель</option>
+        <option>Tesla Model 3</option>
+        <option>Tesla Model S</option>
+        <option>Tesla Model X</option>
+      </select>
+      <button class="button" type="button">Арендовать</button>
+    </form>
+  </div>
 </body>
 </html>
