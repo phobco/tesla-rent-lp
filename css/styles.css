@@ -26,7 +26,7 @@ html {
 
 .background {
   height: 800px;
-  background-image: url('../images/banner.jpg');
+  /* background-image: url('../images/banner.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,7 +35,6 @@ html {
 .logo {
   display: inline-block;
   width: 30%;
-  float: left;
   font-size: 30px;
   font-weight: lighter;
 }
@@ -48,7 +47,6 @@ html {
 .menu {
   width: 70%;
   display: inline-block;
-  float: left;
 }
 
 .menu ul {
@@ -223,7 +221,7 @@ h2 {
 
 .rent {
   height: 500px;
-  background-image: url('/images/background.jpg');
+  /* background-image: url('/images/background.jpg'); */
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -370,5 +368,7 @@ h2 {
 
   .rent-form {
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
