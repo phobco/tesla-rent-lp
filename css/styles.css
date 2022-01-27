@@ -137,7 +137,7 @@ h2 {
 }
 
 .models {
-  background-image: url('/images/background2.jpg');
+  background-image: url('images/background2.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
