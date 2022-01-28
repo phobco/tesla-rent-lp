@@ -211,11 +211,13 @@ h2 {
   display: block;
   float: left;
   border-radius: 50%;
-  margin: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .reviews-item h4 {
-  margin: 20px 0;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
 .rent {
@@ -286,6 +288,58 @@ h2 {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.border-orange {
+  border: solid 2px orangered;
+}
+
+.border-grey {
+  border: solid 2px grey;
+}
+
+.border-blue {
+  border: solid 2px blue;
+}
+
+@media (max-width: 1500px) {
+  .reviews {
+    padding: 0;
+  }
+
+  .models {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .reviews {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    margin: 0;
+    display: block;
+  }
+
+  .reviews-item {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .reviews-item p {
+    padding-right: 2%;
+    font-size: 20px;
+  }
+
+  .models, .models-description {
+    padding: 0;
+    margin: 0;
+  }
+
+  .models-description-item {
+    width: 30%;
+  }
+}
+
 @media (max-width: 1100px) {
   .header {
     height: auto;
@@ -302,8 +356,8 @@ h2 {
 }
 
 
-@media (max-width: 900px) {
-  .header, .banner, .about {
+@media (max-width: 980px) {
+  .banner, .about {
     padding: 0;
     height: auto;
   }
@@ -350,17 +404,7 @@ h2 {
   }
 
   .reviews {
-    padding: 0;
-    margin: 0;
-    display: block;
-  }
-
-  .reviews-item {
-    height: 200px;
-    width: 100%;
-  }
-
-  .reviews-item p {
+    padding-left: 2%;
     padding-right: 2%;
   }
 
@@ -368,5 +412,18 @@ h2 {
     margin: 0;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-item {
+    height: 230px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .reviews-item img {
+    margin-right: 2%;
+    margin-bottom: 2%;
   }
 }
